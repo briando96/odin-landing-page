@@ -2,31 +2,82 @@
     font-family: 'Roboto', sans-serif;
 }
 
+
+
 #block1 {
     background: #1F2937;
     color: white;
 }
 
-.headerContainer{
-    gap: 10px;
+
+/* padding */
+.headerContainer,#textContainer{
+    padding-left: 120px;
+    padding-right: 120px;
 }
 
-.headerLinks{
+.headerContainer{
+    gap: 10px;
     display: flex;
+
 }
 
 #headerLogo{
     font-size: 24px;
     color: #F9FAF8;
-    width: 300px;
-    text-align: left;
+    flex: 2 1 0%
 }
+
+.headerLinks{
+    display: flex;
+    gap: 15px;
+}
+
 
 .headerLink{
     font-size: 18px;
     color: #E5E7EB;
 }
 
+#textContainer{
+    display: flex;
+    align-items: center;
+}
+
+#tabl1{
+    width: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#left1{
+    flex: 1;
+
+}
+#hero1{
+    font-size: 24px;
+    color: #F9FAF8;  
+    font-weight: 900;
+}
+
+#hero2{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#right1{
+    background-color: grey;
+    height: 100px;
+    width: 400px;
+
+}
+
 .whiteBlock{
     background: #1F2937;
+}
+
+#button1{
+    color: white;
+    background-color: #3882F6;
+    border-radius: 8px;
+    border-color: #3882F6;
 }
