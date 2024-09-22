@@ -1,0 +1,32 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+#block1 {
+    background: #1F2937;
+    color: white;
+}
+
+.headerContainer{
+    gap: 10px;
+}
+
+.headerLinks{
+    display: flex;
+}
+
+#headerLogo{
+    font-size: 24px;
+    color: #F9FAF8;
+    width: 300px;
+    text-align: left;
+}
+
+.headerLink{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.whiteBlock{
+    background: #1F2937;
+}
